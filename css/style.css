@@ -74,7 +74,7 @@ html{
 	margin-left: 18vw;
 }
 .right{
-	width: 27%;
+	width: 30%;
 	float: left;
 /*	background: orange;*/
 	margin-top: 11.5vh;
@@ -326,12 +326,11 @@ footer i:hover{
 }	
 .right{
 	width: 100%;
-/*	background: orange;*/
-	margin: 20% 8% 0%;
 	font-size: 0.8em;
 }
-.right p{
-	width: 80%;
+.right p, h2{
+	padding-left: 10%;
+	padding-right: 10%;
 }
 #sec2{
 	width: 100%;
