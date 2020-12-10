@@ -1,0 +1,436 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+#mybtn{
+	background: #C89035;
+	color: aliceblue;
+	width: 4vw;
+	height: 5vh;
+	border-radius: 10px;
+	position: fixed;
+	right: 1%;
+	bottom: 2%;
+	z-index: 999;
+	display: none;
+	cursor: pointer;
+}
+#mybtn:hover{
+	background: #DDB43C;
+}
+#banner{
+	background: url(../img/mike-dennler-T9CktnMI8TQ-unsplash.jpg);
+	background-size: cover;
+	height: 100vh;
+	text-align: center;	
+	font-size: 4em;
+}
+#banner h4{
+	padding-top: 12%;
+}
+#banner i{
+	font-size: 0.3em;
+	color: black;
+}
+#banner i:hover{
+	color: gray;
+}
+#sec1{
+	width: 100vw;
+	height: auto;
+/*	background: gray;*/
+	float: left;
+	padding: 2% 0%;
+}
+.left{
+	width: 50%;
+	height: 60vh;
+	float: left;
+	text-align: center;
+}
+.left img{
+	height: 50vh;
+	background: url(../img/picture.jpg);
+	background-size: cover;
+	margin-top: 5vh;
+	margin-left: 18vw;
+}
+.right{
+	width: 27%;
+	float: left;
+/*	background: orange;*/
+	margin-top: 11.5vh;
+}
+#sec2{
+	width: 100vw;
+	height: auto;
+	background: #E9E9E9;
+	float: left;
+	text-align: center;
+	padding: 4% 0%;
+}
+.container{
+	width: 80%;
+	height: auto;
+/*	background: pink;*/
+	margin: auto;
+}
+.box{
+	float: left;
+	width: 25%;
+	height: auto;
+/*	background: red;*/
+}
+.box i{
+	font-size: 2em;
+	margin-bottom: 5%;
+}
+.box h4{
+	margin-bottom: 2%;
+}
+#sec4{
+	width: 100vw;
+	height: auto;
+/*	background: gray;*/
+	text-align: center;
+	float: left;
+	padding: 0% 0% 7%;
+}
+.container4{
+	width: 50%;
+	height: auto;
+/*	background: pink;*/
+	margin: auto;
+}
+#sec4 p{
+	padding: 2% 0% 8%;
+}
+.box4{
+	width: 33.33%;
+	height: auto;
+/*	background: yellow;*/
+	float: left;
+	padding-bottom: 4%;
+	text-align: center;
+}
+.vuong{
+	width: 60px;
+	height: 60px;
+	background: black;
+	line-height: 60px;
+	border-radius: 50%;
+	margin: auto;
+}
+.box4 i{
+	color: white;
+}
+.box4 p{
+	margin: 4% 0% 20%;
+}
+fieldset{
+	border: none;
+/*	background: blue;*/
+	width: 60%;
+	margin: auto;
+}
+input{
+	padding: 0% 1%;
+	width: 14vw;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid black;
+	font-family: 'Poppins', sans-serif;
+}
+.put-left{
+	float: left;
+}
+.put-right{
+	float: right;
+}
+textarea{
+	padding: 1% 1%;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 5%;
+	font-family: 'Poppins', sans-serif;
+}
+.container4 a{
+	background: white;
+	color: black;
+	text-decoration: none;
+	padding: 1vh 3vw;
+	border: 2px solid black;
+	border-radius: 50px;
+	transition: all linear 0.2s;
+}
+.container4 a:hover{
+	background: black;
+	color: white;
+}
+footer{
+	width: 100vw;
+	height: auto;
+	float: left;
+	background: black;
+	text-align: center;
+	color: white;
+	padding: 6% 0%;
+}
+footer i{
+	color: white;
+	margin: 0% 1% 2%;
+}
+footer i:hover{
+	color: gray;
+}
+
+
+#sec3{
+	float: left;
+	width: 100vw;
+	height: auto;
+/*	background: gray;*/
+	text-align: center;
+	padding: 4% 0%;
+}
+#sec3 h1{
+	text-align: center;
+}
+#myBtnContainer{
+	text-align: center;
+}
+.filterDiv {
+  float: left;
+/*  background-color: #2196F3;*/
+  color: #ffffff;
+  width: 360px;
+  height: 360px;
+  text-align: center;
+  margin: 1% 1.04%;
+  display: none; /* Hidden by default */
+  transition: all ease 0.3s
+}
+.play{
+	position: relative;
+	background: url(https://wdarena.github.io/images/work-1.jpg);
+	background-size: cover;
+}
+.play i{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	color: white;
+	background: rgba(0, 0, 0, 0.66);
+	padding: 28px;
+	border-radius: 50px;
+}
+.book{
+	background: url(https://wdarena.github.io/images/work-2.jpg);
+	background-size: cover;
+}
+.cup{
+	background: url(https://wdarena.github.io/images/work-3.jpg);
+	background-size: cover;
+}
+.bag{
+	background: url(https://wdarena.github.io/images/work-4.jpg);
+	background-size: cover;
+}
+.photo{
+	background: url(https://wdarena.github.io/images/work-5.jpg);
+	background-size: cover;
+}
+.laptop{
+	background: url(https://wdarena.github.io/images/work-6.jpg);
+	background-size: cover;
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+.container3 {
+  margin: 2% auto;
+  overflow: hidden;
+/*  background: pink;*/
+  width: 60%;
+  text-align: center;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 1% 1%;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+/* Add a dark background to the active button */
+.btn.active{
+  background-color: #666;
+  color: white;
+}
+
+
+@media screen and (max-width : 375px ){
+#mybtn{
+	width: 9vw;
+	height: 3vh;
+	font-size: 0.6em;
+	right: 3%;
+	bottom: 2%;
+}
+#banner{
+	height: 70vh;
+	font-size: 1.2em;
+}
+#banner h1{
+	padding-top: 22%;
+}
+#banner i{
+	font-size: 0.6em;
+}
+#sec1{
+	width: 100%;
+/*	background: gray;*/
+	padding: 2% 0% 12%;
+}
+.left{
+	width: 100%;
+	height: 40vh;
+}
+.left img{
+	height: 40vh;
+	margin-left: 0;
+}	
+.right{
+	width: 100%;
+/*	background: orange;*/
+	margin: 20% 8% 0%;
+	font-size: 0.8em;
+}
+.right p{
+	width: 80%;
+}
+#sec2{
+	width: 100%;
+	text-align: center;
+	padding: 4% 0%;
+}
+.container{
+	background: none;
+}
+.box{
+	float: none;
+	width: 80%;
+/*	background: red;*/
+	margin: 10% 10%;
+	font-size: 0.8em;
+}
+#sec3{
+	width: 100%;
+	padding: 12% 0%;
+}
+.play{
+	width: 230px;
+	height: 230px;
+}
+.play i{
+	top: 35%;
+	left: 33%;
+}
+.book{
+	width: 230px;
+	height: 230px;
+}
+.cup{
+	width: 230px;
+	height: 230px;
+}
+.bag{
+	width: 230px;
+	height: 230px;
+}
+.photo{
+	width: 230px;
+	height: 230px;
+}
+.laptop{
+	width: 230px;
+	height: 230px;
+}
+#sec4{
+	padding: 0% 0% 18%;
+}
+#sec4 p{
+	font-size: 0.8em;
+}
+.box4{
+	width: 60vw;
+	margin-left: -10%;
+	margin-bottom: -20%;
+}
+fieldset{
+	width: 60%;
+	margin-left: -32%;
+}
+input{
+	width: 80vw;
+}
+.put-left{
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.put-right{
+	float: left;
+	margin-bottom: 5%;
+}
+textarea{
+	width: 80vw;
+	float: left;
+}
+}
+@-webkit-keyframes flip-scale-up-hor {
+  0% {
+    -webkit-transform: scale(1) rotateX(0);
+            transform: scale(1) rotateX(0);
+  }
+  50% {
+    -webkit-transform: scale(2.5) rotateX(-90deg);
+            transform: scale(2.5) rotateX(-90deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateX(-180deg);
+            transform: scale(1) rotateX(-180deg);
+  }
+}
+@keyframes flip-scale-up-hor {
+  0% {
+    -webkit-transform: scale(1) rotateX(0);
+            transform: scale(1) rotateX(0);
+  }
+  50% {
+    -webkit-transform: scale(2.5) rotateX(-90deg);
+            transform: scale(2.5) rotateX(-90deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateX(-180deg);
+            transform: scale(1) rotateX(-180deg);
+  }
+}
+.social{
+	-webkit-animation: flip-scale-up-hor 0.5s linear reverse both;
+	        animation: flip-scale-up-hor 0.5s linear reverse both;
+}
