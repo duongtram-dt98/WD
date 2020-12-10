@@ -10,6 +10,11 @@ body{
 html{
 	scroll-behavior: smooth;
 }
+#wrapper{
+	width: 100%;
+	height: auto;
+	background: purple;
+}
 #mybtn{
 	background: #C89035;
 	color: aliceblue;
@@ -25,6 +30,11 @@ html{
 }
 #mybtn:hover{
 	background: #DDB43C;
+}
+.item{
+	background: url(../img/mike-dennler-T9CktnMI8TQ-unsplash.jpg);
+	height: 200px;
+	width: 100%;
 }
 #banner{
 	background: url(../img/mike-dennler-T9CktnMI8TQ-unsplash.jpg);
@@ -44,7 +54,7 @@ html{
 	color: gray;
 }
 #sec1{
-	width: 100vw;
+	width: 100%;
 	height: auto;
 /*	background: gray;*/
 	float: left;
@@ -70,7 +80,7 @@ html{
 	margin-top: 11.5vh;
 }
 #sec2{
-	width: 100vw;
+	width: 100%;
 	height: auto;
 	background: #E9E9E9;
 	float: left;
@@ -97,7 +107,7 @@ html{
 	margin-bottom: 2%;
 }
 #sec4{
-	width: 100vw;
+	width: 100%;
 	height: auto;
 /*	background: gray;*/
 	text-align: center;
@@ -177,7 +187,7 @@ textarea{
 	color: white;
 }
 footer{
-	width: 100vw;
+	width: 100%;
 	height: auto;
 	float: left;
 	background: black;
@@ -196,7 +206,7 @@ footer i:hover{
 
 #sec3{
 	float: left;
-	width: 100vw;
+	width: 100%;
 	height: auto;
 /*	background: gray;*/
 	text-align: center;

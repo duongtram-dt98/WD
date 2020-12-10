@@ -9,9 +9,19 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 
 <body>
+	<div id="wrapper">
+	<nav>
+		<h1 id="logo">Stephens</h1>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Portfolio</a></li>
+		<li><a href="#">Contact</a></li>
+	</nav>
 	<input type="button" id="mybtn" value="Top" onclick="topFunction()">
 	<section id="banner">
 		<h4 class="animate__animated animate__zoomInDown">Good Day!</h4>
@@ -25,7 +35,23 @@
 			<a href="#"><i class="fab fa-dribbble"></i></a>
 		</div>
 			<a href="#sec1"><i class="fas fa-chevron-down"></i></a>
+		
+		
 	</section>
+		<div class="owl-carousel owl-theme">
+			<div class="item"><h4>1</h4></div>
+			<div class="item"><h4>2</h4></div>
+			<div class="item"><h4>3</h4></div>
+			<div class="item"><h4>4</h4></div>
+			<div class="item"><h4>5</h4></div>
+			<div class="item"><h4>6</h4></div>
+			<div class="item"><h4>7</h4></div>
+			<div class="item"><h4>8</h4></div>
+			<div class="item"><h4>9</h4></div>
+			<div class="item"><h4>10</h4></div>
+			<div class="item"><h4>11</h4></div>
+			<div class="item"><h4>12</h4></div>
+		</div>
 	
 	<section id="sec1">
 		<div class="left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
@@ -126,7 +152,7 @@
 		</div>
 		<small>Copyright © 2020 Duong Tram</small>
 	</footer>
-	
+	</div>
 	<script>
 		filterSelection("all")
 		function filterSelection(c) {
@@ -209,6 +235,15 @@
 		};
 		var typed = new Typed('.element', options);
 	</script>
+		
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+	</script>
+	
 
 </body>
 </html>
